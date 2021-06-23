@@ -1,0 +1,29 @@
+<html>
+    <title>Acordes | Music Tools</title>
+
+    <head>
+        <h2> Acordes </h2>
+    </head>
+
+    <body style="background-color: #7bdd7b;">
+        <h4>Ingresá la nota base y seleccioná un tipo de acorde</h4>
+
+        <form action="/docreatecuat/" method="post">
+            
+            <p>Nota base: <input type="text" name="root"></p>
+            
+            <label for="ttype">Tipo de triada:</label>
+            <select id="triadtype" name="type">
+                <option value="M">Maj7</option>
+                <option value="m">m7</option>
+                <option value="aum">7</option>
+                <option value="dim">m7b5</option>
+                
+            <button name="subject" type="submit" value="chords">
+                Crear triada
+            </button>
+        </form>
+    
+            
+    </body>
+</html>

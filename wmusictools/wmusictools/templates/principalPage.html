@@ -1,24 +1,49 @@
 <html>
-    <title>Music Tools | Leo Amato</title>
-
     <head>
-        <h2> Menu Principal </h2>
+    <title>Music Tools | Leo Amato</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            background-image: url("https://ca.res.keymedia.com/files/image/iStock_000019172228XSmall.jpg");
+            background-repeat:no-repeat;
+            background-size: 90%;
+            background-position-x: center;
+            text-align: center;
+        }
+        h2 {
+            background-color: black;
+            color: rgb(70, 210, 200);
+            font-size: 40px;
+            padding: 10px;
+            text-align: center;
+            margin: 50px 13cm;
+        }
+        h4 {
+            background-color: black;
+            color: rgb(70, 210, 200);
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+            margin: 50px 15cm;
+        }
+    </style>
     </head>
 
-    <body style="background-color: #81cae0;">
+    <body>
+        <h2> Menu Principal </h2>
         <h4>Seleccioná una opción</h4>
 
-        <form action="/chords/" method="post">
+        <form action="/chords/" method="get">
             <button name="subject" type="submit" value="chords">Acordes</button>
         </form>
 
-        <form action="/intervals/" method="post">
+        <form action="/intervals/" method="get">
             <button name="subject" type="submit" value="intervals">Intervalos</button>
         </form>
 
-        <form action="/scales/" method="post">
+        <form action="/scales/" method="get">
             <button name="subject" type="submit" value="scales">Escalas</button>
         </form>
     </body>
 </html>
-
